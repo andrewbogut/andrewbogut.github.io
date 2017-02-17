@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrew Bogut</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-carousel-jumbotron.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-mymod.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+    img {
+      margin-bottom: 10px;
+    }
+
+    ul.lead li {
+      margin-bottom: 4px;
+      line-height: 30px;
+    }
+
+    @media (max-width: 979px) {
+      img {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      ul.lead li {
+        line-height: 24px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .featurette:first-child {
+        padding-top: 0;
+      }
+    }
+    </style>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="navbar-content">
+              <!-- Responsive Navbar Part 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand active" href="/">Andrew Bogut</a>
+              <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+              <div class="nav-collapse collapse">
+
+                <ul class="nav">
+                  <li><a href="/">Home</a></li>
+                  <li class="active dropdown">
+                    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/profile">Profile <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                      <li><a href="profile">NBA Career Highlights</a></li>
+                      <li><a href="profile#collegiate">Collegiate at Utah</a></li>
+                      <li><a href="profile#international">International</a></li>
+                      <li><a href="profile#personal">Personal</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact">Contact</a></li>
+                </ul>
+
+                <div class="pull-right">
+                  <a class="btn-navbar-facebook btn-navbar-connect btn-bg-flip inline-block" href="http://www.facebook.com/andrewmbogut" target="_blank"></a><!--
+                  --><a class="btn-navbar-twitter btn-navbar-connect btn-bg-flip inline-block" href="https://twitter.com/andrewbogut" target="_blank"></a>
+                </div>
+
+              </div><!--/.nav-collapse -->
+            </div><!--/.navbar-content -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+    <!-- /END THE NAVBAR -->
+
+    <div class="content-wrap">
+      <div class="content-main">
+
+        <div class="navbar-push"></div>
+
+        <div class="main-content-row">
+          <!-- START THE FEATURETTES -->
+          <div class="container marketing padding-left-right-20px">
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-career-688x387.jpg"></div>
+                <div data-src="img/profile-career-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-career-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-career-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">NBA Career Highlights <span class="muted"></span></h2>
+
+              <ul class="lead">
+                <li>Was selected by Milwaukee in the first round of the 2005 NBA Draft (1st overall)</li>
+                <li>Signed a contract extension with Milwaukee on July 11, 2008</li>
+                <li>Acquired by Golden State from Milwaukee along with Stephen Jackson in exchange for Kwame Brown, Monta Ellis and Ekpe Udoh on March 13, 2012</li>
+                <li>Entered 2012-13 owning career averages of 12.7 points, 9.3 rebounds, 2.3 assists, 1.57 blocks and 32.7 minutes in 408 career games (400 starts) in seven seasons with Milwaukee</li>
+                <li>Named to the 2009-10 All-NBA Third Team, making him the first All-NBA center to play for the Warriors since Ralph Sampson joined the club in 1987</li>
+                <li>Is the ninth No. 1 overall selection to play for the Warriors</li>
+                <li>Left Milwaukee ranked in the franchise's top-10 in field goal percentage (6th), rebounds (4th), offensive rebounds (4th), defensive rebounds (1st), blocks (3rd), rebounds per game (4th) and blocks per game (5th)</li>
+                <li>Appeared in five playoff games as a rookie in 2006, averaging 8.6 points, 6.2 rebounds and 3.4 assists in 34.2 minutes...Missed the 2010 playoffs with an elbow injury</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-1112-688x387.jpg"></div>
+                <div data-src="img/profile-1112-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-1112-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-1112-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2011-12 <span class="muted">Seventh Season</span></h2>
+
+              <ul class="lead">
+                <li>Began season with Milwaukee before being traded to Golden State on 3/13/12</li>
+                <li>Appeared in 12 games with the Bucks, averaging 11.3 points, 8.3 rebounds, 2.6 assists and 2.00 blocks in 30.3 minutes</li>
+                <li>Fractured his left ankle on 1/25 at Houston and missed the last 52 games of the season following subsequent surgery</li>
+                <li>Had follow-up arthroscopic surgery on the ankle on 4/27</li>
+                <li>Missed four games due to personal reasons (1/3-1/8) and one due to concussion-like symptoms (1/13)</li>
+                <li>Recorded three double-doubles and one 20/10 game (20 points, 11 rebounds on 1/6 at Philadelphia)</li>
+                <li>Tallied 10-plus points nine times, 20-plus points once and 10-plus rebounds four times</li>
+                <li>Blocked three-plus shots in six of his 12 games</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-1011-688x387.jpg"></div>
+                <div data-src="img/profile-1011-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-1011-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-1011-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2010-11 <span class="muted">Sixth Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in 65 games (all starts), averaging 12.8 points, a career-high 11.1 rebounds, 2.0 assists and a league-leading 2.6 blocks in 35.3 minutes</li>
+                <li>Scored a career-high 32 points on 1/26 at Dallas</li>
+                <li>Recorded 20-plus points nine times and 20-plus rebounds three times</li>
+                <li>Tied a career-high seven blocks on three occasions, which tied Serge Ibaka for the most seven-plus block games on the year</li>
+                <li>Grabbed a career-high 27 rebounds, including 20 defensive rebounds, on 1/7 vs. Miami, the second most rebounds in a game last year (20 defensive boards tied Kareem Abdul-Jabbar's franchise record)</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-0910-688x387.jpg"></div>
+                <div data-src="img/profile-0910-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-0910-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-0910-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2009-10 <span class="muted">Fifth Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in 69 games (all starts) averaging a career-high and team-best 15.9 points to go with a team-high 10.2 rebounds and 2.54 blocks (2nd in the NBA) in 32.3 minutes before suffering a dislocated right elbow, sprained right wrist and broken right hand, ending his season and causing him to miss the playoffs</li>
+                <li>One of two players (along with Dwight Howard) to average at least 15.0 points, 10.0 rebounds and 2.00 blocks</li>
+                <li>His 175 blocks were the most by a Bucks player since Alton Lister (177) in 1982-83</li>
+                <li>Had his third career 20-20 game with 24 points and a season-high 20 rebounds on 2/22 at New York</li>
+                <li>Earned Eastern Conference Player of the Week honors on 3/15</li>
+                <li>Missed 13 games due to injury, including six games with a lower left leg strain/contusion, one with a mid-back strain and the final six with a dislocated right elbow, sprained right wrist and broken right hand</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-0809-688x387.jpg"></div>
+                <div data-src="img/profile-0809-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-0809-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-0809-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2008-09 <span class="muted">Fourth Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in 36 games (33 starts), averaging 11.7 points, 10.3 rebounds, 2.0 assists and 1.03 blocks while shooting a career-high 57.7 percent from the field</li>
+                <li>Missed 43 games, including the final 31, with an injured lower back and missed three games with a bone bruise in his left knee</li>
+                <li>Had four 20-plus point games, two 20 and a team-high 16 double-doubles</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-0708-688x387.jpg"></div>
+                <div data-src="img/profile-0708-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-0708-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-0708-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2007-08 <span class="muted">Third Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in 78 games (all starts), averaging then-career-highs in points (14.3), rebounds (9.8) and blocks (1.73) ranking ninth in the NBA in blocks and tied for 11th in rebounds</li>
+                <li>Secured a team-high 38 double-doubles, including 14 20-point, 10-rebound games</li>
+                <li>Scored a then-career-high 29 points on 14-of-16 from the field to go with 11 rebounds on 1/12 at Phoenix</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-0607-688x387.jpg"></div>
+                <div data-src="img/profile-0607-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-0607-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-0607-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2006-07 <span class="muted">Second Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in 66 games (all starts), averaging 12.3 points, a team-high 8.8 rebounds and 3.0 assists in 34.2 minutes while shooting 55.3 percent from the field (8th in the NBA)</li>
+                <li>Led the Bucks with 19 double-doubles</li>
+                <li>Tallied his first career 20-20 game with 20 points and 24 rebounds on 1/12 at Philadelphia</li>
+                <li>Dished out a career-best eight assists on 3/12 vs. Toronto</li>
+                <li>Participated in the Rookie/Sophomore Challenge as part of NBA All-Star Weekend</li>
+                <li>Saw a streak of 148 consecutive snapped when he missed the final 16 games with a left mid-foot sprain</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-0506-688x387.jpg"></div>
+                <div data-src="img/profile-0506-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-0506-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-0506-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">2005-06 <span class="muted">First Season</span></h2>
+
+              <ul class="lead">
+                <li>Appeared in all 82 games for the Bucks (77 starts), averaging 9.4 points, 7.0 rebounds and 2.3 assists in 28.6 minutes, while shooting 53.3 percent from the field (5th in the NBA)</li>
+                <li>Led all rookies in rebounds, blocks (0.83) and field goal percentage while ranking fifth in points and seventh in assists</li>
+                <li>Started the Rookie/Sophomore Challenge as part of the of NBA All-Star Weekend, tallying 14 points and 11 rebounds in 16 minutes as a starter</li>
+                <li>Blocked a last-second shot attempt by Jason Terry to secure a 113-111 overtime win over Dallas on 11/29</li>
+                <li>Hit a game-winner with 0.7 seconds left in a 109-107 overtime victory over San Antonio on 12/20</li>
+                <li>Tallied 12 double-doubles</li>
+                <li>Had 13 points and nine rebounds in his NBA debut on 11/1 vs. Philadelphia</li>
+                <li>Recorded his first career double-double in his second game as a pro, tallying 11 points and 17 rebounds on 11/2 at New Jersey</li>
+                <li>Started all five playoff games against Detroit, averaging 8.6 points, 6.2 rebounds and 3.4 assists in 34.4 minutes</li>
+              </ul>
+            </div>
+
+            <hr id="collegiate" class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-collegiate-688x387.jpg"></div>
+                <div data-src="img/profile-collegiate-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-collegiate-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-collegiate-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">Collegiate Highlights <span class="muted">Utah</span></h2>
+
+              <ul class="lead">
+                <li>Consensus National Player of the Year in 2004-05, won the Wooden, Naismith, Associated Press, USBWA, NABC, Basketball Times, ESPN.com and Sports Illustrated Player of the Year honors and was the leading vote-getter as an Associated Press First Team All-American</li>
+                <li>Ranked 19th in the nation in scoring (20.4 points) and second in rebounds (12.2) in 2004-05, leading the NCAA with 26 double-doubles</li>
+                <li>Led Utah to the 2005 NCAA Tournament Sweet 16</li>
+                <li>Named Mountain West Conference Player of the Year as a sophomore in 2004-05</li>
+                <li>Earned Mountain West Freshman of the Year honors and was a Second Team All-Conference selection as a freshman in 2003-04, averaging 12.5 points and 9.9 rebounds (15th in the nation) while hitting 57.7 percent of his shots (21st)</li>
+                <li>Broke the Mountain West record with 14 double-doubles in 2003-04 (previously held by Tom Bellairs of Air Force in 1999-2000)</li>
+                <li>His #4 was retired by the school on February 18, 2006</li>
+              </ul>
+            </div>
+
+            <hr id="international" class="featurette-divider">
+
+            <div class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-international-688x387.jpg"></div>
+                <div data-src="img/profile-international-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-international-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-international-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">International Highlights <span class="muted">Australia</span></h2>
+
+              <ul class="lead">
+                <li>Played in the 2008 Beijing Olympics with the Australian National Team, averaging 12.7 points, 3.8 rebounds and 19.7 minutes in six games while shooting 59.6 percent for the Boomers</li>
+                <li>Helped the Boomers go 3-2 in preliminary play before falling to eventual Olympic champions Team USA in the quarterfinals</li>
+                <li>In the 2006 FIBA World Championships, averaged 12.8 points, 6.2 rebounds and 2.3 assists in six games to help Australia reach the round of 16</li>
+                <li>Was a member of the U-19 Australian National Team</li>
+                <li>Named the MVP of the 2003 FIBA Junior World Championships in Greece after leading the Aussies to the title, averaging 26.3 points, 17.0 rebounds, 2.5 assists and 1.5 blocks in eight games</li>
+                <li>Prepped at the Australian Institute of Sport, which toured the USA in November of 2001 and 2002</li>
+              </ul>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div id="personal" class="featurette">
+              <div data-picture data-alt="" class="featurette-image pull-right">
+                <div data-src="img/profile-personal-688x387.jpg"></div>
+                <div data-src="img/profile-personal-512x512.jpg" data-media="(min-width: 980px)"></div>
+
+                <!--[if (lt IE 9) & (!IEMobile)]>
+                    <div data-src="img/profile-personal-512x512.jpg"></div>
+                <![endif]-->
+
+                <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                <noscript><img src="img/profile-personal-512x512.jpg" alt=""></noscript>
+              </div>
+
+              <h2 class="featurette-heading">Personal <span class="muted"></span></h2>
+
+              <ul class="lead">
+                <li>Born November 28th 1984 in Mulgrave, Victoria, Australia</li>
+                <li>Grew up in Dandenong and Endeavour Hills which is located in the state of Victoria, Australia</li>
+                <li>Of Croatian decent</li>
+                <li>Nicknames include Bogues and Drew</li>
+                <li>Follows other sports such as Soccer, Australian Rules Football and Tennis</li>
+                <li>Has two Siberian Huskies</li>
+                <li>Favorite foods include soup with noklice (semolina dumplings), cevapi (small grilled rolls of minced meat), burek (a pastry filled with meat, cheese or vegetables) and Penne Alla Vodka (pink sauce)</li>
+                <li>Loves to play any sorts of card games but primarily Texas Holdem Poker and Belote</li>
+                <li>Enjoys Billiards and Table Tennis</li>
+                <li>Would have loved to have met Drazen Petrovic, the legendary Croatian basketball player</li>
+              </ul>
+            </div>
+          </div>
+          <!-- /END THE FEATURETTES -->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wrap">
+      <div class="footer-row">
+        <div class="container marketing padding-left-right-20px">
+
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="sponsors-container">
+              <a class="btn-sponsor-nike btn-sponsor-footer btn-bg-flip inline-block" href="http://www.nike.com/us/en_us/" target="_blank"></a><!--
+              -><a class="btn-sponsor-qantas btn-sponsor-footer btn-bg-flip inline-block" href="http://www.qantas.com.au/travel/airlines/home/au/en" target="_blank"></a><!-
+              --><a class="btn-sponsor-bose btn-sponsor-footer btn-bg-flip inline-block" href="http://www.bose.com/" target="_blank"></a><!--
+              -><a class="btn-sponsor-bausele btn-sponsor-footer btn-bg-flip inline-block" href="https://www.bausele.com/" target="_blank"></a><!-
+              --><a class="btn-sponsor-powerade-old btn-sponsor-footer btn-bg-flip inline-block" href="http://www.us.powerade.com/" target="_blank"></a><!--
+              --><a class="btn-sponsor-mercedez btn-sponsor-footer btn-bg-flip inline-block" href="http://www.mbtoorak.com.au/" target="_blank"></a><!--
+              -><a class="btn-sponsor-bsc btn-sponsor-footer btn-bg-flip inline-block" href="http://www.bodyscience.com.au/" target="_blank"></a><!-
+              --><a class="btn-sponsor-abbasketball btn-sponsor-footer btn-bg-flip inline-block" href="http://www.andrewbogutbasketball.com.au/" target="_blank"></a><!--
+              --><a class="btn-sponsor-one btn-sponsor-footer btn-bg-flip inline-block" href="http://www.omgc.com.au/" target="_blank"></a>
+            </div>
+          </div><!-- /.row -->
+
+        </div>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/matchmedia.js"></script>
+    <script src="js/picturefill.min.js"></script>
+  </body>
+</html>

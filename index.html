@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrew Bogut</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-carousel-jumbotron.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-mymod.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="navbar-content">
+              <!-- Responsive Navbar Part 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand active" href="/">Andrew Bogut</a>
+              <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+              <div class="nav-collapse collapse">
+
+                <ul class="nav">
+                  <li class="active"><a href="/">Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/profile">Profile <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                      <li><a href="profile">NBA Career Highlights</a></li>
+                      <li><a href="profile#collegiate">Collegiate at Utah</a></li>
+                      <li><a href="profile#international">International</a></li>
+                      <li><a href="profile#personal">Personal</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact">Contact</a></li>
+                </ul>
+
+                <div class="pull-right">
+                  <a class="btn-navbar-facebook btn-navbar-connect btn-bg-flip inline-block" href="http://www.facebook.com/andrewmbogut" target="_blank"></a><!--
+                  --><a class="btn-navbar-twitter btn-navbar-connect btn-bg-flip inline-block" href="https://twitter.com/andrewbogut" target="_blank"></a>
+                </div>
+
+              </div><!--/.nav-collapse -->
+            </div><!--/.navbar-content -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+    <!-- /END THE NAVBAR -->
+
+    <div class="content-wrap">
+      <div class="content-main">
+
+        <div class="navbar-push"></div>
+
+        <div class="bogut-header-image">
+          <div data-picture data-alt="Bogut Main Image">
+            <div data-src="img/mainimage20121020-homepage-400x320.jpg"></div>
+            <div data-src="img/mainimage20121020-homepage-800x320.jpg" data-media="(min-width: 400px)"></div>
+            <div data-src="img/mainimage20121020-homepage-1000x320.jpg" data-media="(min-width: 800px)"></div>
+            <div data-src="img/mainimage20121020-homepage-1200x320.jpg" data-media="(min-width: 1000px)"></div>
+
+            <!--[if (lt IE 9) & (!IEMobile)]>
+                <div data-src="img/mainimage20121020-homepage-1200x320.jpg"></div>
+            <![endif]-->
+
+            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+            <noscript><img src="img/mainimage20121020_homepage_1200x320.jpg" alt="Bogut Main Image"></noscript>
+          </div>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="main-content-row">
+          <div class="container marketing padding-left-right-20px">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="span4">
+                <img src="img/andrewbogut12-350x170.jpg" alt="" />
+                <h3>Andrew Bogut</h3>
+                <p>Want to know what Andrew is up to? Follow him on Twitter for the latest news and updates.</p>
+                <p>
+                  <a href="https://twitter.com/andrewbogut" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @andrewbogut</a>
+                </p>
+
+                <div class="vertical-stack-separator"></div>
+              </div><!-- /.span4 -->
+
+              <div class="span4">
+                <a href="http://www.andrewbogutbasketball.com.au/" target="_blank"><img src="img/abbasketball-350x170.jpg" alt="" /></a>
+                <h3>AB Basketball</h3>
+                <p>Australia's only basketball specific training centre. If you want to train like a pro in one of the best facilities in Australia, Andrew Bogut Basketball is for you.</p>
+                <p>
+                  <a href="https://twitter.com/ab_basketball" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @ab_basketball</a>
+                </p>
+
+                <div class="vertical-stack-separator"></div>
+              </div><!-- /.span4 -->
+
+              <div class="span4">
+                <a href="http://www.omgc.com.au/" target="_blank"><img src="img/onemanagement-350x170.jpg" alt="" /></a>
+                <h3>One Management</h3>
+                <p>One Management Group &amp; Consulting (OMGC) is an agency specializing in Sports and Entertainment Talent Management and Sports Marketing Strategy</p>
+                <p>
+                  <a href="https://twitter.com/one_management" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @one_management</a>
+                </p>
+              </div><!-- /.span4 -->
+            </div><!-- /.row -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wrap">
+      <div class="footer-row">
+        <div class="container marketing padding-left-right-20px">
+
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="sponsors-container">
+              <a class="btn-sponsor-nike btn-sponsor-footer btn-bg-flip inline-block" href="http://www.nike.com/us/en_us/" target="_blank"></a><!--
+              -><a class="btn-sponsor-qantas btn-sponsor-footer btn-bg-flip inline-block" href="http://www.qantas.com.au/travel/airlines/home/au/en" target="_blank"></a><!-
+              --><a class="btn-sponsor-bose btn-sponsor-footer btn-bg-flip inline-block" href="http://bose.com.au/" target="_blank"></a><!--
+              -><a class="btn-sponsor-bausele btn-sponsor-footer btn-bg-flip inline-block" href="https://www.bausele.com/" target="_blank"></a><!-
+              --><a class="btn-sponsor-powerade-old btn-sponsor-footer btn-bg-flip inline-block" href="https://www.powerade.com.au/" target="_blank"></a><!--
+              --><a class="btn-sponsor-mercedez btn-sponsor-footer btn-bg-flip inline-block" href="http://www.mbtoorak.com.au/" target="_blank"></a><!--
+              -><a class="btn-sponsor-bsc btn-sponsor-footer btn-bg-flip inline-block" href="http://www.bodyscience.com.au/" target="_blank"></a><!-
+              --><a class="btn-sponsor-abbasketball btn-sponsor-footer btn-bg-flip inline-block" href="http://www.andrewbogutbasketball.com.au/" target="_blank"></a><!--
+              --><a class="btn-sponsor-one btn-sponsor-footer btn-bg-flip inline-block" href="http://www.omgc.com.au/" target="_blank"></a>
+            </div>
+          </div><!-- /.row -->
+
+        </div>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/matchmedia.js"></script>
+    <script src="js/picturefill.min.js"></script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html, body{
+  height: 100%;
+}
+
+body {
+  margin-top: 0;
+  padding: 0;
+  color: #5a5a5a;
+  background: #ffffff;
+}
+
+.navbar-push {
+  width: 100%;
+  height: 50px; /* padding for fixed top navbar */
+}
+
+.inline-block {
+  display: inline-block;
+  zoom:1; *display: inline;
+}
+
+.content-wrap {
+  min-height: 100%;
+}
+
+.content-main {
+  overflow: auto;
+  padding-bottom: 125px;
+}
+
+.footer-wrap {
+  position: relative;
+  margin-top: -125px; /* negative value of footer height */
+  height: 125px;
+  clear: both;
+} 
+
+.bogut-header-image {
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+
+.padding-left-right-20px {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-content-row {
+  padding-top: 50px;
+  padding-bottom: 42px;
+  width: 100%;
+  background: #ffffff url(../img/bg-section-fade-white.png) repeat-x;
+}
+
+.footer-row {
+  padding: 40px 0;
+  width: 100%;
+  background: #EEE url(../img/bg-section-fade.png) repeat-x;
+  text-align: center;
+}
+
+.sponsors-container {
+  text-align: center;
+}
+
+.vertical-stack-separator {
+  display: none;
+  margin: 30px auto 0;
+  width: 80%;
+  border: 1px solid #e1e1e1;
+}
+
+.btn-bg-flip {
+  background-position: top;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+
+.btn-bg-flip:hover {
+  background-position: bottom;
+}
+
+.btn-navbar-connect {
+  margin: 9px 2px 0; /* navbar is 50px high, connect icons are 32, want to center vertically */
+  width: 31px;
+  height: 32px;
+}
+
+.btn-navbar-facebook {
+  background-image: url(../img/logo-facebook-sprite-31x32.png);
+}
+
+.btn-navbar-twitter {
+  background-image: url(../img/logo-twitter-sprite-31x32.png);
+}
+
+.btn-sponsor-footer {
+  margin: 0 10px;
+  height: 40px;
+}
+
+.btn-sponsor-nike {
+  width: 69px;
+  background-image: url(../img/logo-nike-sprite-69x40.png);
+}
+
+.btn-sponsor-qantas {
+  width: 36px;
+  background-image: url(../img/logo-qantas-sprite-36x40.png);
+}
+
+.btn-sponsor-bsc {
+  width: 69px;
+  background-image: url(../img/logo-bsc-sprite-69x40.png);
+}
+
+.btn-sponsor-abbasketball {
+  width: 40px;
+  background-image: url(../img/logo-abbasketball-sprite-40x40.png);
+}
+
+.btn-sponsor-one {
+  width: 34px;
+  background-image: url(../img/logo-one-sprite-34x40.png);
+}
+
+.btn-sponsor-bose {
+  width: 140px;
+  background-image: url(../img/logo-bose-sprite-140x40.png);
+}
+
+.btn-sponsor-bausele {
+  width: 74px;
+  background-image: url(../img/logo-bausele-sprite-74x40.png);
+}
+
+.btn-sponsor-powerade {
+  width: 189px;
+  background-image: url(../img/logo-powerade-sprite-189x40.png);
+}
+
+.btn-sponsor-powerade-old {
+  width: 131px;
+  background-image: url(../img/logo-powerade-old-sprite-131x40.png);
+}
+
+.btn-sponsor-bmw {
+  width: 40px;
+  background-image: url(../img/logo-bmw-sprite-40x40.png);
+}
+
+.btn-sponsor-mercedez {
+  width: 134px;
+  background-image: url(../img/logo-mercedez-sprite-134x40.png);
+}
+
+.featurette {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.featurette-image {
+  margin-top: 0;
+}
+
+.featurette-divider {
+  margin: 20px 0;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  /*margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.navbar-wrapper .container {
+  width: auto;
+}
+
+.navbar-wrapper .navbar {
+
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+          box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* added container div to center the left-aligned navbar to middle however many pixels */
+.navbar .navbar-inner .navbar-content {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+}
+
+.hero-unit h1 {
+  margin-bottom: 10px;
+}
+
+#contact-hero-unit {
+  margin-top: 80px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+  .btn-navbar-connect {
+    margin: 0px 2px 0;
+  }
+
+  .featurette-image.pull-left,
+  .featurette-image.pull-right {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .vertical-stack-separator {
+    display: block;
+  }
+
+  .hero-unit h1 {
+    font-size: 33px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .featurette-heading {
+    font-size: 24px
+  }
+
+  .hero-unit {
+    padding: 15px;
+  }
+
+  .hero-unit h1 {
+    font-size: 30px;
+  }
+
+  #contact-hero-unit {
+    margin-top: 10px;
+  }
+
+  .btn-sponsor-footer {
+    margin: 5px; /* need 5px top + bottom margin to make up for -10 image height and keep footer at 125px tall */
+    height: 30px;
+  }
+
+  .btn-sponsor-nike {
+    width: 52px;
+    background-image: url(../img/logo-nike-sprite-52x30.png);
+  }
+
+  .btn-sponsor-qantas {
+    width: 27px;
+    background-image: url(../img/logo-qantas-sprite-27x30.png);
+  }
+
+  .btn-sponsor-bsc {
+    width: 52px;
+    background-image: url(../img/logo-bsc-sprite-52x30.png);
+  }
+
+  .btn-sponsor-abbasketball {
+    width: 30px;
+    background-image: url(../img/logo-abbasketball-sprite-30x30.png);
+  }
+
+  .btn-sponsor-one {
+    width: 26px;
+    background-image: url(../img/logo-one-sprite-26x30.png);
+  }
+
+  .btn-sponsor-bose {
+    width: 105px;
+    background-size: 105px;
+  }
+
+  .btn-sponsor-bausele {
+    width: 56px;
+    background-size: 56px;
+  }
+}
